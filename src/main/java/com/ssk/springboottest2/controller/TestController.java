@@ -42,4 +42,9 @@ public class TestController {
     public String test4(String name, String pwd) {
         return "test4";
     }
+
+    @GetMapping("/test5")
+    public String test5() {
+        return "test5 jenkins测试";
+    }
 }
